@@ -1,14 +1,20 @@
+import os
 from setuptools import setup, find_packages
+
+
+def read(filename):
+    return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
 
 setup(
     name='gears-coffeescript',
-    version='0.1.dev',
-    url='https://github.com/gears/gears',
+    version='0.1',
+    url='https://github.com/gears/gears-coffeescript',
     license='ISC',
     author='Mike Yumatov',
     author_email='mike@yumatov.org',
     description='CoffeeScript compiler for Gears',
+    long_description=read('README.rst'),
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
