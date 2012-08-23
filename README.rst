@@ -5,6 +5,8 @@ CoffeeScript_ compiler for Gears_. This package already includes the
 CoffeeScript source code for you, so you don't need to worry about installing
 it yourself.
 
+Bundled CoffeeScript version: **1.3.3**
+
 Installation
 ------------
 
