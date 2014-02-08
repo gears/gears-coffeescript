@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='gears-coffeescript',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/gears/gears-coffeescript',
     license='ISC',
     author='Mike Yumatov',
