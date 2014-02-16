@@ -9,5 +9,6 @@ process.stdin.on('data', function(chunk) {
 });
 
 process.stdin.on('end', function() {
-  process.stdout.write(coffee.compile(source));
+  var bare = process.argv[2] == '--bare';
+  process.stdout.write(coffee.compile(source, {bare: bare}));
 });
